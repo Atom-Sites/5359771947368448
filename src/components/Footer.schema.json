@@ -1,0 +1,46 @@
+{
+  "footerText": {
+    "value": "At DaveStar Powerwashing, we gladly service Methuen, Massachusetts, and surrounding areas. We are dedicated to providing dependable, on-time, and excellent customer service. Our power washing services are 100% guaranteed, and we ensure the job is done to your satisfaction.",
+    "ai": true,
+    "instructions": "Text for the footer. Extrapolate from the example",
+    "example": "We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+  },
+  "address": {
+    "value": "Methuen, Massachusetts",
+    "ai": true,
+    "instructions": "Company Address"
+  },
+  "phone": {
+    "value": "+19782282258",
+    "ai": true,
+    "instructions": "Company Phone Number"
+  },
+  "email": {
+    "value": "davecammarata@hotmail.com",
+    "ai": true,
+    "instructions": "Company E-Mail Address"
+  },
+  "socials": {
+    "value": [],
+    "ai": true,
+    "instructions": "Create socials if they exist. Use the format provided in the example.",
+    "example": [
+      {
+        "name": "Facebook",
+        "href": "#"
+      },
+      {
+        "name": "Twitter",
+        "href": "#"
+      },
+      {
+        "name": "Instagram",
+        "href": "#"
+      }
+    ]
+  },
+  "anchor": {
+    "value": "contact",
+    "ai": false
+  }
+}

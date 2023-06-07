@@ -1,0 +1,29 @@
+{
+  "title": {
+    "value": "DaveStar Powerwashing Reviews",
+    "ai": true,
+    "instructions": "Title of the page."
+  },
+  "pageTitle": {
+    "value": "Power Washing in Methuen | DaveStar Powerwashing",
+    "ai": true,
+    "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
+    "example": "Window Cleaning in Boston | <Company Name>"
+  },
+  "pageName": {
+    "value": "DaveStar Powerwashing",
+    "ai": true,
+    "instructions": "Company Name"
+  },
+  "imageUrl": {
+    "value": "https://image.shutterstock.com/image-photo/pressure-cleaning-worker-cleans-outdoor-450w-1821066584.jpg",
+    "ai": true,
+    "instructions": "A href to the hero image for the page"
+  },
+  "description": {
+    "value": "Looking for power washing services in Methuen? DaveStar Powerwashing's experienced team is committed to customer satisfaction. Book an appointment today!",
+    "ai": true,
+    "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
+    "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"
+  }
+}

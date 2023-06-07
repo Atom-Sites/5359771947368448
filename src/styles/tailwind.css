@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
+
+/* button gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+/* <!-- CUSTOM CHANGES ON NICEJOB LEAD FORM --> */
+
+  .nj-funnel__footer__text {
+   	display: none
+  }
+  .nj-funnel__title {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #272727 !important;
+}
+  .nj-funnel__button {
+        color: #fff !important;
+    	background-color: #2F2F2F !important;
+        font-family: ‘Nj Inter’, sans-serif !important;
+        line-height: 1.75 !important;
+    	border: 1px solid transparent !important;
+    	border-radius: 100px !important;
+  }
+  .nj-funnel__button:hover {
+    background-color: #2F2F2F !important;
+    color: #fff !important;
+}
+
+/* <!-- CUSTOM CHANGES ON RECOMMENDATION FORM --> */
+
+  .nj-figma-submit {
+        color: #fff !important;
+    	background-color: #2F2F2F !important;
+        font-family: ‘Nj Inter’, sans-serif !important;
+    	line-height: 1.75 !important;
+        border: 1px #fff !important;
+    	border-radius: 100px !important;
+}
+  .nj-figma-submit:hover {
+    background-color: #2F2F2F !important;
+    color: #fff !important;
+}
+
+/* <!-- CUSTOM CHANGES ON STORIES CARDS --> */
+
+  .nj-card {
+    background-color: #fff !important;
+    border: 1px solid #2F2F2F !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0px 0px 0px rgb(0 0 0 / 0%), 0 0px 0px 0 rgb(0 0 0 / 0%), 0 0px 0px 0 rgb(0 0 0 / 0%) !important;
+}
+    .nj-review__content {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #2F2F2F !important;
+}
+  .nj--widget--content .nj-review__see-more {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #2F2F2F !important;
+    font-weight: 800 !important;
+}
+    .nj-review__author {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #2F2F2F !important;
+    font-weight: 600 !important;
+}
+  .nj-gravatar {
+    background-color: #2F2F2F !important;
+    color: #fff !important;
+}
+    .nj-media__photo--wrap {
+ 	border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+    .nj-card__media {
+ 	border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+  .nj--widget--content .nj--stories-cards--wrap {
+    padding: 0 0px !important;
+}
+  .nj--widget--content .nj-card.nj-card--grid {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+     }
+    .nj-review__time {
+    color: #6A6A6A !important;
+}
+	.nj--widget--content .nj-powerbar__link {
+    color: #6A6A6A !important;
+}
+	.nj-brand-badge.nj-brand-badge--label {
+    color: #6A6A6A !important;
+}
+	.nj-icon.nj-icon--badge {
+    color: #6A6A6A !important;
+}
+  	.nj-brand-badge__label {
+    color: #6A6A6A !important;
+  }
+
+/* <!-- CUSTOM CHANGES ON TRUST BADGE --> */
+
+  .nj--widget--content .nj-trust__rating {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #2F2F2F !important;
+    margin: -8px 0px 24px !important;
+    font-size: 5rem !important;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+     }
+  .nj--widget--content .nj-trust__snippet-__text {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #2F2F2F !important;
+    margin: 10px 0px 10px !important;
+    padding: 0px !important;
+    font-size: 1rem !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.011em !important;
+     }
+   .nj--widget--content .nj-trust__gravatar {
+    background-color: #2F2F2F !important;
+    color: #fff !important;
+    width: 48px !important;
+    height: 48px !important;
+    flex-basis: 48px !important;
+    border-radius: 24px !important;
+    margin-right: 20px !important;
+    font-weight: 600 !important;
+    font-size: 21px !important;
+    }
+  .nj--widget--content .nj-trust__verb__text {
+    font-family: ‘Nj Inter’, sans-serif !important;
+    color: #2F2F2F !important;
+    }
+  .nj--widget--content .nj-trust__verb {
+   	display: none
+  }
+  .nj--widget--content .nj-trust__total {
+   	display: none
+  }
+  .nj--widget--content .nj-trust__stars {
+    font-size: 32px !important;
+    letter-spacing: 6px !important;
+     }
+  .nj--widget--content .nj-trust-widget {
+    background-color: transparent !important;
+    max-width: 650px !important;
+    padding: 0px 0px !important;
+    border-radius: 6px !important;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0%), 0 0px 0px 0px rgb(0 0 0 / 0%), 0 0px 0px 0 rgb(0 0 0 / 0%) !important;
+     }
+  .nj--widget--content .nj-trust__total  {
+    top: -6px !important;
+    margin: 10px 0px 10px 10px !important;
+     }
+  .nj--widget--content .nj-divider {
+   border-bottom: 1px transparent !important;
+    }
+
+/* <!-- CUSTOM CHANGES ON ENGAGE ---> */
+  .nj--widget--content .nj-text--highlight {
+   color: #231F20 !important;
+   font-family: ‘Nj Inter’, sans-serif !important;
+}
+  .nj--widget--content .nj-text--highlight {
+   color: #231F20 !important;
+   font-family: ‘Nj Inter’, sans-serif !important;
+}
+  .nj-caption.nj-caption--pulse.nj-caption--grey {
+   color: #231F20 !important;
+   font-family: ‘Nj Inter’, sans-serif !important;
+}
+  .nj--widget--content .nj-icon.nj-icon--verified {
+   color: #231F20 !important;
+}
+  .nj--widget--content .nj-caption.nj-caption--pulse {
+   color: #231F20 !important;
+   font-family: ‘Nj Inter’, sans-serif !important;
+}
+  .nj-caption.nj-caption--channel {
+   color: #231F20 !important;
+   font-family: ‘Nj Inter’, sans-serif !important;
+}
+  .nj--widget--content .nj-heading.nj-heading--pulse
+   {
+   color: #231F20 !important;
+   font-family: ‘Nj Inter’, sans-serif !important;
+}

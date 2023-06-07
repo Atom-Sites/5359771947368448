@@ -1,0 +1,26 @@
+{
+  "title": {
+    "value": "Transform Your Property with DaveStar Powerwashing",
+    "ai": true,
+    "instructions": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice."
+  },
+  "callToAction": {
+    "value": "Experience the difference of a clean and well-maintained exterior with our professional power washing services.",
+    "ai": true,
+    "instructions": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing very short paragraph to promote the services. Do not use the same keyword twice."
+  },
+  "image": {
+    "value": "https://cdn.nicejob.co/uploads/production/5359771947368448/1593033012553_5187691733843968_937_resized.jpg",
+    "ai": true,
+    "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
+  },
+  "buttonText": {
+    "value": "Get a Free Quote",
+    "ai": true,
+    "instructions": "A short call to action that will be displayed on the button."
+  },
+  "anchor": {
+    "value": "our-work",
+    "ai": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "headerText": {
+    "value": "Testimonials",
+    "ai": true,
+    "instructions": "Either Testimonials or Reviews"
+  },
+  "headerSubText": {
+    "value": "See what our satisfied customers have to say about our exceptional power washing services.",
+    "ai": true,
+    "instructions": "A short description of the section goes here. Should talk about what people are saying about the company."
+  },
+  "testimonials": {
+    "value": [
+      {
+        "body": "Very professional and fabulous job on my home.",
+        "author": {
+          "name": "Mary Taylor",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "He responded quickly, came a day later and was out of here within 30 minutes.",
+        "author": {
+          "name": "B",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Second time using DaveStar Powerwashing. The house looks amazing!",
+        "author": {
+          "name": "Faithe Toomy",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Came on time, did a great job, reasonable price.",
+        "author": {
+          "name": "Stan Komorowski",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "Dave was very professional and friendly. I recommend anyone who needs the service call Dave first.",
+        "author": {
+          "name": "Roger Noel",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      },
+      {
+        "body": "House looks brand new. The white pops; Dave did a great job.",
+        "author": {
+          "name": "Lianne",
+          "source": "NiceJob",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      }
+    ],
+    "ai": true,
+    "instructions": "Use available information to create 2-6 testimonials in the testimonials array. Use the provided icon for all authors",
+    "example": [
+      {
+        "body": "The body for the first testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
+        "author": {
+          "name": "Name of the first person",
+          "source": "Source of the review. For example, Google, Facebook, etc.",
+          "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+        }
+      }
+    ]
+  },
+  "anchor": {
+    "value": "reviews",
+    "ai": false
+  }
+}

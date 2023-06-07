@@ -1,0 +1,119 @@
+{
+  "services": {
+    "value": [
+      {
+        "serviceBlurb": "House Washing",
+        "serviceSlug": "Revitalize your home's exterior with our expert house washing",
+        "serviceText": "Our professional house washing service removes dirt, grime, and mildew from your home's exterior, leaving it looking fresh and clean. Our experienced team uses safe and effective techniques to ensure the best results without causing any damage to your property.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/group-friends-professional-cleaners-tiding-450w-395889778.jpg",
+        "imageAlt": "House washing service",
+        "features": [
+          {
+            "name": "Safe and effective cleaning",
+            "description": "We use eco-friendly cleaning solutions and low-pressure washing techniques to safely remove dirt and grime without causing any damage to your home's exterior."
+          },
+          {
+            "name": "Experienced professionals",
+            "description": "Our team of skilled technicians has years of experience in the power washing industry, ensuring that your home is in good hands."
+          },
+          {
+            "name": "Satisfaction guaranteed",
+            "description": "We stand by our work and guarantee your satisfaction. If you're not happy with the results, we'll make it right."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Gutter Cleaning",
+        "serviceSlug": "Prevent water damage with our thorough gutter cleaning service",
+        "serviceText": "Clogged gutters can lead to water damage and costly repairs. Our gutter cleaning service ensures that your gutters are free of debris and functioning properly, protecting your home from potential water damage. Trust our experienced team to keep your gutters clean and well-maintained.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/cleaning-service-professional-equipment-during-450w-368560784.jpg",
+        "imageAlt": "Gutter cleaning service",
+        "features": [
+          {
+            "name": "Comprehensive cleaning",
+            "description": "We remove leaves, twigs, and other debris from your gutters, ensuring that water can flow freely and prevent potential damage to your home."
+          },
+          {
+            "name": "Preventative maintenance",
+            "description": "Regular gutter cleaning is essential for maintaining the integrity of your home's exterior and preventing costly repairs."
+          },
+          {
+            "name": "Expert service",
+            "description": "Our team of professionals has the skills and experience needed to safely and effectively clean your gutters, protecting your home from water damage."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Driveway Cleaning",
+        "serviceSlug": "Enhance your curb appeal with our exceptional driveway cleaning",
+        "serviceText": "A clean driveway can make a significant difference in your home's curb appeal. Our driveway cleaning service removes dirt, grime, and stains, leaving your driveway looking pristine and well-maintained. Trust our experienced team to deliver outstanding results.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/middle-aged-black-man-cleaning-450w-1518076328.jpg",
+        "imageAlt": "Driveway cleaning service",
+        "features": [
+          {
+            "name": "Effective stain removal",
+            "description": "We use powerful cleaning solutions and techniques to remove even the toughest stains from your driveway, restoring its appearance."
+          },
+          {
+            "name": "Curb appeal enhancement",
+            "description": "A clean driveway can significantly improve your home's curb appeal, making it more attractive to potential buyers and increasing its value."
+          },
+          {
+            "name": "Professional service",
+            "description": "Our team of skilled technicians is dedicated to providing exceptional driveway cleaning services, ensuring your satisfaction with the results."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Commercial Building Cleaning",
+        "serviceSlug": "Maintain a professional image with our commercial building cleaning",
+        "serviceText": "A clean and well-maintained commercial building is essential for projecting a professional image. Our commercial building cleaning service removes dirt, grime, and stains from your building's exterior, ensuring that it looks its best at all times. Trust our experienced team to keep your commercial property looking pristine.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/woman-worker-using-scrubber-machine-450w-1629613705.jpg",
+        "imageAlt": "Commercial building cleaning service",
+        "features": [
+          {
+            "name": "Thorough cleaning",
+            "description": "We use powerful cleaning solutions and techniques to remove dirt, grime, and stains from your commercial building's exterior, ensuring a clean and professional appearance."
+          },
+          {
+            "name": "Improved image",
+            "description": "A clean and well-maintained commercial building projects a professional image, attracting customers and clients to your business."
+          },
+          {
+            "name": "Expert service",
+            "description": "Our team of skilled technicians is dedicated to providing exceptional commercial building cleaning services, ensuring your satisfaction with the results."
+          }
+        ]
+      }
+    ],
+    "ai": true,
+    "instructions": "Write up to four services in a way that mimics the example schema. Act as a marketing strategist when deciding on content. Use persuasive and targeted language for potential customers to pique their interest.",
+    "example": [
+      {
+        "serviceBlurb": "Name of the service",
+        "serviceSlug": "Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice.\n Example to follow:\n Sparkle up your property!\n Refresh your view with our experts!\n Experience financial freedom with our accounting services!",
+        "serviceText": "Write an attention-grabbing paragraph to promote the services. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice.",
+        "imageUrl": "A url to an image that represents the service a 1:1 aspect ratio",
+        "imageAlt": "Alt text for the image. can be left blank",
+        "features": [
+          {
+            "name": "A 1st specific feature of the service",
+            "description": "A 1 paragraph description of the service"
+          },
+          {
+            "name": "A 2nd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          },
+          {
+            "name": "A 3rd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          }
+        ]
+      }
+    ]
+  },
+  "anchor": {
+    "value": "services",
+    "ai": false
+  }
+}
