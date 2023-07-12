@@ -1,0 +1,21 @@
+{
+    "page_name": "about-us",
+    "components": [
+        {
+            "slug": "aboutpagehero",
+            "component_key": "AboutPageHero"
+        },
+        {
+            "slug": "aboutfeature",
+            "component_key": "AboutFeature"
+        },
+        {
+            "slug": "team",
+            "component_key": "Team"
+        },
+        {
+            "slug": "recommend",
+            "component_key": "Recommend"
+        }
+    ]
+}

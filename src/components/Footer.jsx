@@ -1,59 +1,51 @@
-import extractValues from '@/utils/extractValues'
-import useSWR from 'swr'
+'use client'
+import makeId from '@/utils/makeId'
+import { Email } from 'react-obfuscate-email'
+import { formatPhoneNumber } from '../utils/formatPhoneNumber'
 
-import { Email } from "react-obfuscate-email";
+export default function Footer(props) {
+    const {
+        Header,
+        email,
+        phone,
+        address,
+        socials,
+        footerText,
+        services,
+        brand,
+    } = props
+    const { brand_name, brand_logo, brand_url } = brand
 
-const fetcher = (url) => fetch(url).then((res) => res.json())
-
-function iconLookup(network) {
-    switch (network.toLowerCase()) {
-        case 'facebook':
-            return <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
-            </svg>
-        case 'instagram':
-            return <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
-            </svg>
-        case 'twitter':
-            return <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
-            </svg>
-        case 'google':
-            return <svg className="h-6 w-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" />
-                <path d="M17.788 5.108A9 9 0 1021 12h-8" />
-            </svg>
-
+    if (!services) {
+        return <div>failed to load</div>
     }
-}
-
-
-export default function Example() {
-
-    const { data, error } = useSWR('/api/staticdata?filename=Footer.schema.json', fetcher)
-    const { data: service_data, error: service_error } = useSWR('/api/staticdata?filename=Service.schema.json', fetcher)
-
-    if (error || service_error) return <div>failed to load</div>
-    if (!data || !service_data) return <div></div>
-
-    const { email, phone, address, socials, footerText } = extractValues(data)
-    const services = service_data.services.value
 
     return (
-        <footer className="editable-component relative bg-neutral-800" data-json='footer'>
-            <h2 className="sr-only">Footer</h2>
-            <div className="mx-auto max-w-7xl px-6 pt-16 pb-10 sm:pt-20 lg:px-8">
+        <footer
+            className="editable-component relative bg-primary-950"
+            data-json="footer"
+        >
+            <div className="mx-auto max-w-7xl px-6 pb-10 pt-16 sm:pt-20 lg:px-8">
                 {/*Footer intro*/}
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
-                        <h2 className="text-2xl font-extrabold tracking-tight text-white md:text-3xl lg:text-4xl">Contact us today!</h2>
-                        <p className="text-sm leading-6 text-neutral-300 max-w-xl">{footerText}</p>
+                        <h2 className="font-display text-2xl font-semibold tracking-tight text-white md:text-3xl lg:text-4xl">
+                            {Header}
+                        </h2>
+                        <p className="max-w-xl leading-7 text-white">
+                            {footerText}
+                        </p>
                         <div className="flex space-x-6">
                             {socials.map((social) => (
-                                <div>
-                                    <a href={social.href} className="text-neutral-400 hover:text-gray-300 transition-all ease-in" >
-                                        <span className="sr-only">{social.name}</span>
+                                <div key={social.name}>
+                                    <a
+                                        href={social.href}
+                                        className="text-primary-300
+                                         transition-all ease-in hover:text-primary-200"
+                                    >
+                                        <span className="sr-only">
+                                            {social.name}
+                                        </span>
                                         <span className="h-6 w-6">
                                             {iconLookup(social.name)}
                                         </span>
@@ -70,11 +62,20 @@ export default function Example() {
                                 <ul className="mt-6 space-y-4"></ul>
                             </div>
                             <div className="">
-                                <h3 className="font-semibold leading-6 text-white text-base">What We Do</h3>
+                                <h3 className="font-display text-base font-semibold leading-6 text-white">
+                                    Our Services
+                                </h3>
                                 <ul className="mt-6 space-y-4">
                                     {services.map((service) => (
-                                        <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`/#${service.header}`}>{service.serviceBlurb}</a>
+                                        <li key={service.anchor} className="">
+                                            <a
+                                                className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                                href={`/#${makeId(
+                                                    service.anchor
+                                                )}`}
+                                            >
+                                                {service.name}
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
@@ -83,32 +84,73 @@ export default function Example() {
                         {/*Footer menu About Us*/}
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div className=" mt-6 md:mt-0">
-                                <h3 className="font-semibold leading-6 text-white text-base">About Us</h3>
+                                <h3 className="font-display text-base font-semibold leading-6 text-white">
+                                    Who We Are
+                                </h3>
                                 <ul className="mt-6 space-y-4">
                                     <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/reviews">Reviews</a>
+                                        <a
+                                            className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                            href="/reviews"
+                                        >
+                                            Reviews
+                                        </a>
                                     </li>
                                     <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="work">Our Work</a>
+                                        <a
+                                            className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                            href="/work"
+                                        >
+                                            Our Work
+                                        </a>
                                     </li>
-                                    {/* <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={contact_href}>About Us</a>
-                                    </li> */}
+                                    <li className="">
+                                        <a
+                                            className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                            href="/faq"
+                                        >
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li className="">
+                                        <a
+                                            className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                            href="/about-us"
+                                        >
+                                            About Us
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                             {/*Footer menu Get in Touch*/}
                             <div className="md:grid md:grid-cols-1 md:gap-8">
                                 <div className="mt-10 md:mt-0">
-                                    <h3 className="font-semibold leading-6 text-white text-base">Get in Touch</h3>
+                                    <h3 className="font-display text-base font-semibold leading-6 text-white">
+                                        Get in Touch
+                                    </h3>
                                     <ul className="mt-6 space-y-4">
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#"><Email subject="Website Inquiry" email={email}>Email Us</Email></a>
+                                            <p className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100">
+                                                <Email
+                                                    subject="Website Inquiry"
+                                                    email={email}
+                                                >
+                                                    Email Us
+                                                </Email>
+                                            </p>
                                         </li>
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`tel: ${phone}`}>{phone}</a>
+                                            <a
+                                                className="text-sm leading-6  text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                                href={`tel:${phone}`}
+                                            >
+                                                {formatPhoneNumber(phone)}
+                                            </a>
                                         </li>
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#">{address}</a>
+                                            <div className="text-sm leading-6 text-white opacity-70 transition-all ease-in">
+                                                {address}
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -118,23 +160,51 @@ export default function Example() {
                 </div>
 
                 {/*Copyright*/}
-                <div className="flex justify-between items-center mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+                <div className="mt-16 flex items-center justify-between border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
                     {/*Nicejob Atom*/}
-                    <a href="" className="filter grayscale invert brightness-100 hover:brightness-0 transition-all ease-in">
-                        <img className="flex h-8 w-28" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Crafted by NiceJob" />
+                    <a
+                        href={brand_url}
+                        className="opacity-70 brightness-100 grayscale  filter transition-all ease-in hover:opacity-100"
+                    >
+                        <img
+                            className="flex h-8 w-28"
+                            src={brand_logo}
+                            alt={`Crafted by ${brand_name}}`}
+                            loading="lazy"
+                        />
                     </a>
                     {/*Privacy*/}
                     <div className="flex items-center">
-                        <p className="text-xs leading-5 text-neutral-400 py-2">Copyright {new Date().getFullYear()}</p>
-                        <p className="text-xs leading-5 text-neutral-400 py-2 px-1">|</p>
-                        <a href="" className="text-neutral-400 hover:text-neutral-300 transition-all ease-in">
-                            <p className="text-xs leading-5 py-2">Privacy</p>
+                        <p className="py-2 text-xs leading-5 text-white opacity-70">
+                            Copyright {new Date().getFullYear()}
+                        </p>
+                        <p className="px-1 py-2 text-xs leading-5 text-neutral-400">
+                            |
+                        </p>
+                        <a
+                            href="/privacy"
+                            className="text-white opacity-70 transition-all ease-in hover:opacity-100"
+                        >
+                            <p className="py-2 text-xs leading-5">Privacy</p>
                         </a>
                         {/*Link to top*/}
-                        <div className=" flex ml-6">
-                            <a href="/#" className="text-neutral-400 hover:text-neutral-300 transition-all ease-in">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
-                                    <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm.53 5.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v5.69a.75.75 0 001.5 0v-5.69l1.72 1.72a.75.75 0 101.06-1.06l-3-3z" clipRule="evenodd" />
+                        <div className=" ml-6 flex">
+                            <a
+                                href="#top"
+                                className="text-white opacity-70 transition-all ease-in hover:opacity-100"
+                                aria-label="Back to Top"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    className="h-10 w-10"
+                                >
+                                    <path
+                                        fillRule="evenodd"
+                                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm.53 5.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v5.69a.75.75 0 001.5 0v-5.69l1.72 1.72a.75.75 0 101.06-1.06l-3-3z"
+                                        clipRule="evenodd"
+                                    />
                                 </svg>
                             </a>
                         </div>
@@ -145,4 +215,105 @@ export default function Example() {
     )
 }
 
-
+function iconLookup(network) {
+    switch (network.toLowerCase()) {
+        case 'facebook':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 896 1664"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M895 12v264H738q-86 0-116 36t-30 108v189h293l-39 296H592v759H286V905H31V609h255V391q0-186 104-288.5T667 0q147 0 228 12z"
+                    />
+                </svg>
+            )
+        case 'instagram':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1536 1536"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M1024 768q0-106-75-181t-181-75t-181 75t-75 181t75 181t181 75t181-75t75-181zm138 0q0 164-115 279t-279 115t-279-115t-115-279t115-279t279-115t279 115t115 279zm108-410q0 38-27 65t-65 27t-65-27t-27-65t27-65t65-27t65 27t27 65zM768 138q-7 0-76.5-.5t-105.5 0t-96.5 3t-103 10T315 169q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103t-3 96.5t0 105.5t.5 76.5t-.5 76.5t0 105.5t3 96.5t10 103T169 1221q20 50 58 88t88 58q29 11 71.5 18.5t103 10t96.5 3t105.5 0t76.5-.5t76.5.5t105.5 0t96.5-3t103-10t71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103t3-96.5t0-105.5t-.5-76.5t.5-76.5t0-105.5t-3-96.5t-10-103T1367 315q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10t-96.5-3t-105.5 0t-76.5.5zm768 630q0 229-5 317q-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124T5 1085q-5-88-5-317t5-317q10-208 124-322T451 5q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"
+                    />
+                </svg>
+            )
+        case 'twitter':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1600 1280"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M1588 152q-67 98-162 167q1 14 1 42q0 130-38 259.5T1273.5 869T1089 1079.5t-258 146t-323 54.5q-271 0-496-145q35 4 78 4q225 0 401-138q-105-2-188-64.5T189 777q33 5 61 5q43 0 85-11q-112-23-185.5-111.5T76 454v-4q68 38 146 41q-66-44-105-115T78 222q0-88 44-163q121 149 294.5 238.5T788 397q-8-38-8-74q0-134 94.5-228.5T1103 0q140 0 236 102q109-21 205-78q-37 115-142 178q93-10 186-50z"
+                    />
+                </svg>
+            )
+        case 'google':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1536 1536"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M768 658h725q12 67 12 128q0 217-91 387.5T1154.5 1440T768 1536q-157 0-299-60.5T224 1312T60.5 1067T0 768t60.5-299T224 224T469 60.5T768 0q300 0 515 201l-209 201Q951 283 768 283q-129 0-238.5 65T356 524.5T292 768t64 243.5T529.5 1188t238.5 65q87 0 160-24t120-60t82-82t51.5-87t22.5-78H768V658z"
+                    />
+                </svg>
+            )
+        case 'yelp':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1408 1792"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M709 1319v127q-1 292-6 305q-12 32-51 40q-54 9-181.5-38T308 1664q-13-15-17-36q-1-12 4-26q4-10 34-47t181-216q1 0 60-70q15-19 39.5-24.5t49.5 3.5q24 10 37.5 29t12.5 42zm-149-251q-3 55-52 70l-120 39q-275 88-292 88q-35-2-54-36q-12-25-17-75q-8-76 1-166.5T56 863t56-32q13 0 202 77q71 29 115 47l84 34q23 9 35.5 30.5T560 1068zm826 297q-7 54-91.5 161T1159 1653q-37 14-63-7q-14-10-184-287l-47-77q-14-21-11.5-46t19.5-46q35-43 83-26q1 1 119 40q203 66 242 79.5t47 20.5q28 22 22 61zM714 733q5 102-54 122q-58 17-114-71L168 186q-8-35 19-62q41-43 207.5-89.5T619 3q40 10 49 45q3 18 22 305.5T714 733zm662 108q3 39-26 59q-15 10-329 86q-67 15-91 23l1-2q-23 6-46-4t-37-32q-30-47 0-87q1-1 75-102q125-171 150-204t34-39q28-19 65-2q48 23 123 133.5t81 167.5v3z"
+                    />
+                </svg>
+            )
+        case 'youtube':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1792 1280"
+                >
+                    <path
+                        fill="currentColor"
+                        d="m711 872l484-250l-484-253v503zM896 10q168 0 324.5 4.5T1450 24l73 4q1 0 17 1.5t23 3t23.5 4.5t28.5 8t28 13t31 19.5t29 26.5q6 6 15.5 18.5t29 58.5t26.5 101q8 64 12.5 136.5T1792 532v176q1 145-18 290q-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19t-28 12.5t-28.5 8t-24 4.5t-23 3t-16.5 1.5q-251 19-627 19q-207-2-359.5-6.5T336 1256l-49-4l-36-4q-36-5-54.5-10t-51-21t-56.5-41q-6-6-15.5-18.5t-29-58.5T18 998q-8-64-12.5-136.5T0 748V572q-1-145 18-290q7-55 25-99.5T75 121l14-17q14-15 29-26.5T149 58t28-13t28.5-8t23.5-4.5t23-3t17-1.5q251-18 627-18z"
+                    />
+                </svg>
+            )
+        case 'houzz':
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 448 512"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z"
+                    />
+                </svg>
+            )
+    }
+}

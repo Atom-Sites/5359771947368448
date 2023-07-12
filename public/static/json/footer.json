@@ -1,0 +1,38 @@
+{
+  "Header": "Contact us today!",
+  "footerText": "We gladly service Methuen, MA and surrounding areas.",
+  "address": "Methuen St, Methuen, MA, US, 01844",
+  "phone": "+19782282258",
+  "email": "davecammarata@hotmail.com",
+  "socials": [],
+  "services": [
+    {
+      "name": "Power Washing",
+      "anchor": "power-washing"
+    },
+    {
+      "name": "House Washing",
+      "anchor": "house-washing"
+    },
+    {
+      "name": "Gutter Cleaning",
+      "anchor": "gutter-cleaning"
+    },
+    {
+      "name": "Driveway Cleaning",
+      "anchor": "driveway-cleaning"
+    },
+    {
+      "name": "Walkway Cleaning",
+      "anchor": "walkway-cleaning"
+    },
+    {
+      "name": "Deck Cleaning",
+      "anchor": "deck-cleaning"
+    },
+    {
+      "name": "Commercial Buildings",
+      "anchor": "commercial-buildings"
+    }
+  ]
+}

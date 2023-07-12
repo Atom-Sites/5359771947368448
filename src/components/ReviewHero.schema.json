@@ -1,0 +1,56 @@
+{
+    "Header": {
+        "value": "Reviews Snippet",
+        "AI": true,
+        "instructions": "Use a literal small portion of the testimonial. Only use 2-3 keywords highlighting the company’s qualities or the great experience. \n Example: From the review, \\“Great company to work with. Booking appointment was easy and professional.\\” the title would be \\“Easy and Professional.\\”  \n From the review, \\“Melvin did a fantastic job. He was professional, respectful of the property, and left everything looking great.\\” the title would be “Fantastic Job.\\” \n From the review, \\“Everything from the first e-mail was top notch! I will certainly hire them again!!! Melvin was so kind and helpful!\\” the title would be \\“Top-Notch Services.\\”"
+    },
+    "Icon": {
+        "value": "fa-solid fa-star",
+        "AI": false
+    },
+    "Reviews": {
+        "value": [
+            {
+                "Body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "Author": {
+                    "Name": "Leslie Alexander",
+                    "Source": "google",
+                    "Icon": "/images/google-badge.svg"
+                }
+            },
+            {
+                "Body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "Author": {
+                    "Name": "John Doe",
+                    "Source": "nicejob",
+                    "Icon": "/images/nicejob-badge.svg"
+                }
+            },
+            {
+                "Body": "Another testimonial goes here.",
+                "Author": {
+                    "Name": "John Doe",
+                    "Source": "facebook",
+                    "Icon": "/images/facebook-badge.svg"
+                }
+            }
+        ],
+        "AI": true,
+        "instructions":  "Use available information to create 1 Review in the Reviews array. Use one recent Review, no more than 6 months old if possible. Use the provided icon for all authors. Do not use any Yelp reviews.",
+        "example":[
+            {
+                "Body": "The body for the Review goes here. It should be a short paragraph about what the person is saying about the company.",
+                "Author": {
+                    "Name": "Name of the person.",
+                    "Source": "Source of the review. For example, Google, Facebook, Nicejob, etc.",
+                    "Icon": "/images/google-badge.svg"
+                }
+            }
+        ]
+    },
+    "CTA": {
+        "value": "Read more reviews",
+        "AI": false
+    }
+}
+

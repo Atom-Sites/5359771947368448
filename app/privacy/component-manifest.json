@@ -1,0 +1,9 @@
+{
+    "page_name": "privacy",
+    "components": [
+        {
+            "slug": "privacy",
+            "component_key": "Privacy"
+        }
+    ]
+}

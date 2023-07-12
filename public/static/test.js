@@ -16,10 +16,7 @@ function triggerScriptLoader() {
     });
 }
 
-console.log('soidfhoish');
-
 function loadScripts() {
-    console.log('soidfhoish');
     
     document.querySelectorAll("script[data-type=‘lazy’]").forEach(function (elem) {
         elem.setAttribute("src", elem.getAttribute("data-src"));

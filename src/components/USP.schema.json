@@ -1,50 +1,59 @@
 {
-  "headerText": {
-    "value": "Experience the power of DaveStar Powerwashing",
-    "ai": true,
-    "instructions": "Act as a marketing strategist. Write a compelling header about our services for a website's Unique Selling Points section. Your header should clearly state what sets your product or service apart from competitors and briefly describe how it solves a customer's pain. Use persuasive and appealing language to potential customers to make them want to learn more about your offerings. Limit to 60 characters and use sentence-case format. \n Example to follow:\n Make cleaning easier than ever with our exceptional cleaning services! \n Experience sparkling views and expert service with our professional team! \n Take your carpet cleaning to a whole new level with our professional services. \n Save time, money, and effort with our top-notch painting services. \n Powerwash dull surfaces to perfection fast and easily!\n Tackle complex legal cases with confidence using our lawyer services!"
-  },
-  "uspDescription": {
-    "value": "Transform your home or business with our exceptional power washing services. Our experienced team is dedicated to providing top-quality results and outstanding customer service. Discover the difference DaveStar Powerwashing can make for your property today.",
-    "ai": true,
-    "instructions": "Act as a marketing strategist. Write a small introduction to our USPs in about 3 sentences. Develop a value proposition that emphasizes the benefits of using our services. Additionally, consider highlighting any exclusive feature our company may provide compared to competitors. Do not use the third person, but use the second-person pronoun. Write short and clear sentences cutting extra words, tightening awkward phrasing, and ensuring the sentence isn\u2019t too long. Avoid the use of the same keywords twice.\n Examples of good output: \n Discover the ultimate cleaning experience with our top-notch services! Our team of highly trained professionals is here to help you enjoy a spotless and healthy environment tailored to your specific needs. Our flexible scheduling options are there to accommodate your busy lifestyle so you can experience and enjoy a cleaner, fresher space. \n Ready to see and feel the difference of having sparkling clean windows? You can count on exceptional cleaning with our exclusive streak-free guarantee. Our expert technicians use advanced techniques and eco-friendly solutions to deliver unmatched results. Enjoy a perfect finish after every cleaning for a healthier environment and brighter outlook. \n Give your home a fresh start with top-notch painting services tailored to your needs. Experience the high-quality results of our premium painting and repair services and have peace of mind with our exclusive 2-year stain protection warranty. Let's showcase your unique style and add the finishing touches to your space today! \n Enjoy well-maintained and lush grass with our premier lawn care services! Our highly trained experts are here to help you enjoy a vibrant space customized to your needs. You can count on a healthy lawn with a distinctive look and feel year-round. Experience the difference today. \n Ready to upgrade your plumbing? Our team of experienced professionals offers a wide range of services to fit your needs. From fixing a leaking pipe to a full-home plumbing checkup, you can trust us to provide top-notch plumbing services. We are committed to helping you with any plumbing issues with speed and efficiency, so you can have peace of mind and enjoy a well-functioning home! \n Grow your business with top-notch accounting services from our experienced team! We provide exclusive access to real-time financial reporting and analysis to meet your goals and exceed expectations. Enjoy secure and timely bookkeeping services for worry-free and reliable management of your finances. Get accurate information and innovative solutions so your business runs efficiently and profitably. Turn your accounting into a valuable asset today!"
-  },
-  "features": {
-    "value": [
-      {
-        "name": "Expert Power Washing",
-        "description": "Rely on our primary service, power washing, to rejuvenate your property's exterior surfaces, including house washing, gutter cleaning, driveway cleaning, and more.",
-        "href": "#"
-      },
-      {
-        "name": "Years of Experience",
-        "description": "Trust in our expertise, backed by years of experience in the power washing industry, ensuring your property receives the best care possible.",
-        "href": "#"
-      },
-      {
-        "name": "Customer Satisfaction",
-        "description": "Enjoy peace of mind with our commitment to customer satisfaction, providing dependable, on-time service, and a 100% guarantee on our work.",
-        "href": "#"
-      }
-    ],
-    "ai": true,
-    "instructions": "Write exactly three features in the provided format. The 'name' should be small, 2-3 word title features. The description should be one-sentence description of the (first, second, or third) feature using the client's perspective and second-person pronoun. Highlight how the feature is a persuasive benefit. Do not repeat the same keyword twice in a paragraph. Write concise sentences and avoid wordiness or vagueness. Fix all grammar. Write in an active voice. In a clause written in the active voice, the subject of the clause performs the action. (I saw Mom.) In a clause written in the passive voice, the action is performed upon the subject of the clause. (Mom was seen by me.)",
-    "example": [
-      {
-        "name": "20+ Years of Experience",
-        "description": "You can count on us with our proven reliability, trustworthiness, and detail-oriented approach to meet and exceed your expectations.",
-        "href": "A link to additional information. If no link is available, leave as '#'"
-      },
-      {
-        "name": "Reliable & Professional",
-        "description": "Experience peace of mind with our unwavering commitment to customer satisfaction as we go above and beyond to ensure your happiness.",
-        "href": "A link to additional information. If no link is available, leave as '#'"
-      },
-      {
-        "name": "Fair & Affordable Pricing",
-        "description": "You\u2019ll get top-notch service and quality without breaking the bank to enjoy your shiny home while saving time and energy.",
-        "href": "A link to additional information. If no link is available, leave as '#'"
-      }
-    ]
-  }
+    "Header": {
+        "value": "Header Text",
+        "description": "Header text for the page",
+        "AI": true,
+        "instructions": "Act as a marketing strategist. Write a compelling header about our services for a website's Unique Selling Points section. Your header should clearly state what sets your product or service apart from competitors and briefly describe how it solves a customer's pain. Use persuasive and appealing language to potential customers to make them want to learn more about your offerings. Limit to 60 characters and use sentence-case format. Do not include the company's name in the title. \n Example to follow:\n Make cleaning easier than ever with our exceptional cleaning services! \n Experience sparkling views and expert service with our professional team! \n Take your carpet cleaning to a whole new level with our professional services. \n Save time, money, and effort with our top-notch painting services. \n Powerwash dull surfaces to perfection fast and easily!\n Tackle complex legal cases with confidence using our lawyer services!"
+    },
+    "Body": {
+        "value": "Description, about 4 or 5 sentences",
+        "description": "Description of the USP",
+        "AI": true,
+        "instructions": "Act as a marketing strategist. Write a small introduction to our USPs in about 3 sentences. Develop a value proposition that emphasizes the benefits of using our services. Additionally, consider highlighting any exclusive feature our company may provide compared to competitors. Do not use the third person, but use the second-person pronoun. Write short and clear sentences cutting extra words, tightening awkward phrasing, and ensuring the sentence isn’t too long. Avoid the use of the same keywords twice.\n Examples of good output: \n Discover the ultimate cleaning experience with our top-notch services! Our team of highly trained professionals is here to help you enjoy a spotless and healthy environment tailored to your specific needs. Our flexible scheduling options are there to accommodate your busy lifestyle so you can experience and enjoy a cleaner, fresher space. \n Ready to see and feel the difference of having sparkling clean windows? You can count on exceptional cleaning with our exclusive streak-free guarantee. Our expert technicians use advanced techniques and eco-friendly solutions to deliver unmatched results. Enjoy a perfect finish after every cleaning for a healthier environment and brighter outlook. \n Give your home a fresh start with top-notch painting services tailored to your needs. Experience the high-quality results of our premium painting and repair services and have peace of mind with our exclusive 2-year stain protection warranty. Let's showcase your unique style and add the finishing touches to your space today! \n Enjoy well-maintained and lush grass with our premier lawn care services! Our highly trained experts are here to help you enjoy a vibrant space customized to your needs. You can count on a healthy lawn with a distinctive look and feel year-round. Experience the difference today. \n Ready to upgrade your plumbing? Our team of experienced professionals offers a wide range of services to fit your needs. From fixing a leaking pipe to a full-home plumbing checkup, you can trust us to provide top-notch plumbing services. We are committed to helping you with any plumbing issues with speed and efficiency, so you can have peace of mind and enjoy a well-functioning home! \n Grow your business with top-notch accounting services from our experienced team! We provide exclusive access to real-time financial reporting and analysis to meet your goals and exceed expectations. Enjoy secure and timely bookkeeping services for worry-free and reliable management of your finances. Get accurate information and innovative solutions so your business runs efficiently and profitably. Turn your accounting into a valuable asset today!"
+    },
+    "Features": {
+        "value": [
+            {
+                "name": "feature1",
+                "description": "feature1 description, about 4 or 5 sentences",
+                "href": "#",
+                "icon": "fa-solid fa-1"
+            },
+            {
+                "name": "feature2",
+                "description": "feature2 description, about 4 or 5 sentences",
+                "href": "#",
+                "icon": "fa-solid fa-2"
+            },
+            {
+                "name": "feature3",
+                "description": "feature3 description, about 4 or 5 sentences",
+                "href": "#",
+                "icon": "fa-solid fa-3"
+            }
+        ],
+        "description": "Details for a list of features for a USP section.",
+        "AI": true,
+        "instructions": "Write exactly three features in the provided format. The 'name' should be small, 2-3 word title features. The description should be one-sentence description of the (first, second, or third) feature using the client's perspective and second-person pronoun. Highlight how the feature is a persuasive benefit. Do not repeat the same keyword twice in a paragraph. Write concise sentences and avoid wordiness or vagueness. Fix all grammar. Write in an active voice. In a clause written in the active voice, the subject of the clause performs the action. (I saw Mom.) In a clause written in the passive voice, the action is performed upon the subject of the clause. (Mom was seen by me.) The icon should be a Font Awesome icon class name (fa-solid fa-shield). Do not repeat icons.",
+        "example": [
+            {
+                "name": "20+ Years of Experience",
+                "description": "You can count on us with our proven reliability, trustworthiness, and detail-oriented approach to meet and exceed your expectations.",
+                "href": "A link to additional information. If no link is available, leave as '#'",
+                "icon": "fa-solid fa-award"
+            },
+            {
+                "name": "Reliable & Professional",
+                "description": "Experience peace of mind with our unwavering commitment to customer satisfaction as we go above and beyond to ensure your happiness.",
+                "href": "A link to additional information. If no link is available, leave as '#'",
+                "icon": "fa-solid fa-bade-check"
+            },
+            {
+                "name": "Fair & Affordable Pricing",
+                "description": "You'll get top-notch service and quality without breaking the bank to enjoy your shiny home while saving time and energy.",
+                "href": "A link to additional information. If no link is available, leave as '#'",
+                "icon": "fa-solid fa-tag"
+            }
+        ]
+    }
 }

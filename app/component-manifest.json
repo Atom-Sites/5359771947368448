@@ -1,0 +1,49 @@
+{
+    "page_name": "index",
+    "components": [
+        {
+            "slug": "herofullbg",
+            "component_key": "HeroFullBG"
+        },
+        {
+            "slug": "hero",
+            "component_key": "Hero"
+        },
+        {
+            "slug": "usp",
+            "component_key": "USP"
+        },
+        {
+            "slug": "reviewhero",
+            "component_key": "ReviewHero"
+        },
+        {
+            "slug": "services",
+            "component_key": "Services"
+        },
+        {
+            "slug": "satisfactionguarantee",
+            "component_key": "SatisfactionGuarantee"
+        },
+        {
+            "slug": "secondaryservices",
+            "component_key": "SecondaryServices"
+        },
+        {
+            "slug": "beforeafter",
+            "component_key": "BeforeAfter"
+        },
+        {
+            "slug": "credentials",
+            "component_key": "Credentials"
+        },
+        {
+            "slug": "testimonials",
+            "component_key": "Testimonials"
+        },
+        {
+            "slug": "call_to_action",
+            "component_key": "CallToAction"
+        }
+    ]
+}

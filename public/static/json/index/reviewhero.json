@@ -1,0 +1,15 @@
+{
+  "Header": "Outstanding Job and Professionalism",
+  "Icon": "fa-solid fa-star",
+  "Reviews": [
+    {
+      "Body": "Dave did an outstanding job, both power-washing our house and cleaning the gutters. Look forward to future dealings with Dave, and it was a pleasure to deal with his pleasant demeanor and professionalism.",
+      "Author": {
+        "Name": "Ed Keleher",
+        "Source": "nicejob",
+        "Icon": "/images/google-badge.svg"
+      }
+    }
+  ],
+  "CTA": "Read more reviews"
+}

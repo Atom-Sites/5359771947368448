@@ -1,0 +1,42 @@
+{
+    "headerSnippet": {
+        "value": "reviews snippet",
+        "AI": true,
+        "instructions": "Use a literal small portion of the testimonial. Only use 2-3 keywords highlighting the company’s qualities or the great experience. \n Example: From the review, \\“Great company to work with. Booking appointment was easy and professional.\\” the title would be \\“Easy and Professional.\\”  \n From the review, \\“Melvin did a fantastic job. He was professional, respectful of the property, and left everything looking great.\\” the title would be “Fantastic Job.\\” \n From the review, \\“Everything from the first e-mail was top notch! I will certainly hire them again!!! Melvin was so kind and helpful!\\” the title would be \\“Top-Notch Services.\\”"
+    },
+    "testimonials": {
+        "AI": true,
+        "instructions":  "Use available information to create 1 testimonial in the testimonials array. Use one recent testimonial, no more than 6 months old if possible. Use the provided icon for all authors. Do not use any Yelp reviews.",
+        "value": [
+            {
+                "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "author": {
+                    "name": "Leslie Alexander",
+                    "source": "google",
+                    "icon": "/images/google-badge.svg"
+                }
+            },
+            {
+                "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "author": {
+                    "name": "John Doe",
+                    "source": "nicejob",
+                    "icon": "/images/nicejob-badge.svg"
+                }
+            },
+            {
+                "body": "Another testimonial goes here.",
+                "author": {
+                    "name": "John Doe",
+                    "source": "facebook",
+                    "icon": "/images/facebook-badge.svg"
+                }
+            }
+        ]
+    },
+    "anchor": {
+        "value": "reviews",
+        "AI": false
+    }
+}
+

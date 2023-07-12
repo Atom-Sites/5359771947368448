@@ -1,0 +1,15 @@
+{
+  "headerSnippet": "Outstanding Job",
+  "testimonials": [
+    {
+      "author": {
+        "icon": "https://image.shutterstock.com/display_pic_with_logo/162718586/177032936/stock-photo-young-woman-touching-future-technology-social-network-button-177032936.jpg",
+        "name": "Ed Keleher"
+      },
+      "content": "Dave did an outstanding job, both power-washing our house and cleaning the gutters. Look forward to future dealings with Dave, and it was a pleasure to deal with his pleasant demeanor and professionalism.",
+      "rating": 5,
+      "source": "nicejob"
+    }
+  ],
+  "anchor": "reviews"
+}

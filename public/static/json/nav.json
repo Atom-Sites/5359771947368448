@@ -1,0 +1,30 @@
+{
+  "altText": "DAVESTAR POWERWASHING",
+  "buttonText": "Book Now",
+  "services": [
+    {
+      "serviceName": "Power Washing",
+      "serviceAnchor": "power-washing"
+    },
+    {
+      "serviceName": "House Washing",
+      "serviceAnchor": "house-washing"
+    },
+    {
+      "serviceName": "Gutter Cleaning",
+      "serviceAnchor": "gutter-cleaning"
+    },
+    {
+      "serviceName": "Driveway Cleaning",
+      "serviceAnchor": "driveway-cleaning"
+    },
+    {
+      "serviceName": "Walkway Cleaning",
+      "serviceAnchor": "walkway-cleaning"
+    },
+    {
+      "serviceName": "Deck Cleaning",
+      "serviceAnchor": "deck-cleaning"
+    }
+  ]
+}

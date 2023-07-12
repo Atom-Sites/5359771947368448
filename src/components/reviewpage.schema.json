@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "value": "Our Customer Stories",
+        "description": "Main page header.",
+        "AI": false
+    },
+    "Intro": {
+        "value": "Your community is talking about us. Experience why residents in and around (the city) are raving about us. We provide top-notch (services) services that will exceed your expectations.",
+        "description": "Small intro paragraph.",
+        "AI": true
+    },
+    "CTA": {
+        "value": "Get started today!",
+        "description": "CTA Text",
+        "AI": false
+    },
+    "AI": true,
+        "instructions": "Act as a customer service representative. Create a list of the most asked questions that customers typically have regarding our services in our main location. Focus on providing comprehensive answers that address any potential concerns or doubts our customers may have. Your list should include 5-10 of the most commonly asked questions on the web, such as: /n How often should I have my [patio/deck/siding] pressure washed in Toronto? /n Do I need to be home during the pressure washing service? /n How long does pressure wash an average-sized Canadian home take? /n Do I need to remove all outdoor items, such as furniture, before the pressure washing service? /n Can pressure washing damage my property's surface? /n What cleaning agents do you use during the pressure washing service? /n Are you licensed and insured to provide pressure washing services in Toronto? /n Do you provide any guarantees for your work?",
+        "example": [
+            {
+                "Intro": "Write a small intro paragraph for the review page. \n Example to follow:\n Got questions? We are here to provide you with all the information you need to make informed decisions. Contact our friendly team for personalized assistance if you don't see what you need."
+            }
+        ]
+}

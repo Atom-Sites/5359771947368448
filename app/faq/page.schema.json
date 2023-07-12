@@ -1,0 +1,29 @@
+{
+    "title": {
+        "value": "junkless template",
+        "AI": true,
+        "instructions": "Title of the page. This is the FAQ page."
+    },
+    "pageTitle": {
+        "value": "dummy title",
+        "AI": true,
+        "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
+        "example": "Window Cleaning in Boston | <Company Name>"
+    },
+    "pageName": {
+        "value": "dummy name",
+        "AI": true,
+        "instructions": "Company Name"
+    },
+    "imageUrl": {
+        "value": "placeholder",
+        "AI": true,
+        "instructions": "A href to the hero image for the page"
+    },
+    "description": {
+        "value": "this page is about stuff",
+        "AI": true,
+        "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
+        "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"
+    }
+}

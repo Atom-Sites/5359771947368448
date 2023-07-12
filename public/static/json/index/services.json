@@ -1,0 +1,56 @@
+{
+  "Services": [
+    {
+      "Tagline": "Power Washing",
+      "Header": "Unleash the power of clean!",
+      "Body": "DAVESTAR POWERWASHING's power washing service will leave your home or business looking fresh and new. Our professional team uses high-quality equipment to remove dirt, grime, and stains, leaving your property sparkling clean. We pride ourselves on our attention to detail and commitment to customer satisfaction.",
+      "ImageUrl": "https://storage.googleapis.com/image-service-images/5359771947368448/eb43_dave_star_power_washing.webp",
+      "AltText": "Power washing service in Methuen, MA",
+      "CTA": "Clean my property!",
+      "Features": [
+        {
+          "Icon": "fa-solid fa-check",
+          "name": "Detailed Cleaning",
+          "description": "Our power washing service pays attention to every nook and cranny, ensuring a thorough clean."
+        },
+        {
+          "Icon": "fa-solid fa-check",
+          "name": "High-Quality Equipment",
+          "description": "We use high-quality power washing equipment to effectively remove dirt and stains."
+        },
+        {
+          "Icon": "fa-solid fa-check",
+          "name": "Customer Satisfaction",
+          "description": "We strive to provide excellent customer service and ensure our customers are satisfied with our work."
+        }
+      ],
+      "Anchor": "power-washing"
+    },
+    {
+      "Tagline": "House Washing",
+      "Header": "Bring back your home's sparkle!",
+      "Body": "Our house washing service at DAVESTAR POWERWASHING will rejuvenate the appearance of your home. Using effective cleaning techniques, we remove dirt, mold, and mildew, restoring your home's exterior to its former glory. Trust us to deliver a service that exceeds your expectations.",
+      "ImageUrl": "[STOCK: House washing service]",
+      "AltText": "House washing service in Methuen, MA",
+      "CTA": "Wash my house!",
+      "Features": [
+        {
+          "Icon": "fa-solid fa-check",
+          "name": "Effective Cleaning",
+          "description": "Our house washing service effectively removes dirt, mold, and mildew, improving the appearance of your home."
+        },
+        {
+          "Icon": "fa-solid fa-check",
+          "name": "Home Rejuvenation",
+          "description": "Our service restores your home's exterior, making it look fresh and new."
+        },
+        {
+          "Icon": "fa-solid fa-check",
+          "name": "Exceeding Expectations",
+          "description": "We aim to exceed our customers' expectations with our thorough and high-quality service."
+        }
+      ],
+      "Anchor": "house-washing"
+    }
+  ]
+}

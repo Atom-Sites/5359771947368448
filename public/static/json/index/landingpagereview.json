@@ -1,0 +1,13 @@
+{
+"headerSnippet": "reviews snippet",
+
+"testimonials": [
+        {
+            "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+            "author": {
+                "name": "Leslie Alexander",
+                "source": "google",
+                "icon": "/images/google-badge.svg"
+            }
+        }
+]}

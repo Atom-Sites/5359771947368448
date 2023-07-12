@@ -1,0 +1,50 @@
+{
+    "Services": {
+        "value": [
+            {
+                "Service": "service1",
+                "Anchor": "service-1",
+                "Header": "header",
+                "Body": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "ImageUrl": "/images/placeholder.svg",
+                "AltText": "image Alt Text"
+            },
+            {
+                "Service": "service2",
+                "Anchor": "service-2",
+                "Header": "header",
+                "Body": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "ImageUrl": "/images/placeholder.svg",
+                "AltText": "image Alt Text"
+            },
+            {
+                "Service": "Service 3",
+                "Anchor": "service-3",
+                "Header": "header",
+                "Body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "ImageUrl": "/images/placeholder.svg",
+                "AltText": "image Alt Text"
+            }
+        ],
+        "description": "Details for the secondary services section of the website.",
+        "AI": true,
+        "instructions": "Write up all the secondary services in a way that mimics the example schema. Act as a marketing strategist when deciding on content. Use persuasive and targeted language for potential customers to pique their interest.",
+        "example": [
+            {
+                "Service": "Name of the service",
+                "Anchor": "name-of-the-service-in-lowercase-with-dashes",
+                "Header": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of our service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice. \n Example to follow: \n Sparkle up your property! \n Refresh your view with our experts! \n Experience financial freedom with our accounting services! \n Give your property instant curb appeal! \n Breathe new life into your carpet! \n Unlock your home’s full potential! \n Reveal your roof’s true beauty!",
+                "Body": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing paragraph to promote the service. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice.",
+                "ImageUrl": "Act as a content creator. Find an image about our service that would grab the viewer's attention and encourage them to take action. Make sure that the image is high quality, clear, and vibrant. Additionally, ensure it is visually representative of the product or service and contextually appropriate for the surrounding content. Provide a URL to your selected image for the service section.",
+                "AltText": "Ensure that the alternative text for the image provides a succinct, yet equivalent alternative to the content and function of the image. Describe the image thoroughly, highlighting any special features or details that make the service unique. Use keywords for the service and include the main location."
+            }
+        ]
+    },
+    "CTA": {
+        "value": "Lorem Ipsum!",
+        "description": "A CTA text for the button.",
+        "AI": true,
+        "instructions": "Write a small call-to-action text related to all the secondary services for the button. Use 3-4 words max. \n Example to follow:\n Clean up my yard! \n Maximize my savings \n Make my windows shine! \n Free my space!"
+    }
+
+}

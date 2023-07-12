@@ -1,1 +1,9 @@
-{"company_name": "DAVESTAR POWERWASHING", "industries": [], "phone": "+19782282258", "slug": "davestar-powerwashing", "website": "http://davestarpowerwashing.com", "email": "davecammarata@hotmail.com", "company_id": "5359771947368448"}
+{
+    "company_name": "HUTCHISON MAINTENANCE", 
+    "industries": ["gcid:carpet_cleaning_service", "gcid:commercial_cleaning_service", "gcid:house_cleaning_service", "gcid:window_cleaning_service"], 
+    "phone": "+17055617260", 
+    "slug": "hutchison-maintenance", 
+    "website": "http://hutchisonmaintenance.ca", 
+    "email": "brandi@hutchisonmaintenance.ca", 
+    "company_id": "4782319835545600"
+}

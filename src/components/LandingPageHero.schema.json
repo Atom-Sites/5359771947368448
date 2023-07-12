@@ -1,0 +1,26 @@
+{
+    "headingText": {
+        "value": "A catchy tagline that leads to success",
+        "AI": true,
+        "instructions":  "Act as an SEO and website designer specialist. Create the perfect heading, limited to 60 characters, highlighting the benefit of using our services. Ensure all prompts follow SEO best practices. Write in a sentence-case format with no colon or vertical bar. Do not use the same word twice.\n Example to follow: \n Take the stress out with our reliable accounting services.\n Get sparkling clean surfaces in London with top power washing services.\n Rejuvenate your space with affordable carpets cleaning services in Miami.\n Enjoy leakless pipework with reliable plumbing services in Vancouver. \n Transform your space with professional painting services. \n Enjoy stress-free moving services in Sudbury. \n Experience winning legal solutions with Montreal's expert lawyers."
+    },
+    "descriptionText": {
+        "value": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+        "AI": true,
+        "instructions":  "Create a small intro text for the hero section. It should be 2 small sentences of text. Fix all grammar. Do not repeat the same keyword twice in a paragraph. Examples to follow: Looking to say goodbye to the never-ending mess and give your place a fresh start? Seek no further! Our cleaning services will give your home or office a new breath of life, creating a sparkling space you'll love. \n Revitalize your space by choosing Vancouver's premier cleaning services. Let our experts transform your home or office into an immaculate hygienic place you'll proudly show your friends and clients, giving you the peace of mind you deserve! \n Give your windows a bright shine with Laval's best window cleaning services. Enjoy crystal-clear views that will brighten your space and experience superior service you can count on and streak-free results. Bring life back to your home with expert cleaning services in Costa Rica. \n Our professionals are committed to providing results to restore your carpets to their beautiful, clean, and hygienic state. Let's take care of the dirt and dust so you can sit back and enjoy your newly revitalized space.\n Transform your home with our qualified professionals with the skill and experience to bring your vision to life, giving you a stunning home you'll be proud of. Whether it's indoor or outdoor painting you need, we guarantee superior results that stand out from the rest. \n Take advantage of Sudbury's top lawyers and get the best legal advice that yields successful outcomes. Our experienced professionals provide personalized services to help you maximize your legal success and get the justice you deserve."
+    },
+    "heroImageUrl": {
+        "value": "/images/service-hero.webp",
+        "AI": true,
+        "instructions":  "An url to a Hero image that will be displayed on the page with a 16:9 aspect ratio"
+    },
+    "heroImageAlt": {
+        "value": "Alt text",
+        "AI": true,
+        "instructions": "Ensure that the alternative text for the image provides a succinct, yet equivalent alternative to the content and function of the image. Describe the image thoroughly, highlighting any special features or details that make the service unique. Use keywords for the service and include the main location."
+    },
+    "anchor": {
+        "value": "top",
+        "AI": false
+    }
+} 

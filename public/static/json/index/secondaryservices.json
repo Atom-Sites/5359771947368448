@@ -1,0 +1,53 @@
+{
+  "Services": [
+    {
+      "Service": "House Washing",
+      "Anchor": "house-washing",
+      "Header": "Revitalize your home with our house washing!",
+      "Body": "Our house washing service is designed to breathe new life into your property. With our expert team and top-notch equipment, we can remove years of accumulated dirt and grime, leaving your home looking as good as new.",
+      "ImageUrl": "[ IMAGE: House before and after power washing ]",
+      "AltText": "Before and after images of a house washed by DaveStar Powerwashing in Methuen, MA"
+    },
+    {
+      "Service": "Gutter Cleaning",
+      "Anchor": "gutter-cleaning",
+      "Header": "Prevent water damage with our gutter cleaning!",
+      "Body": "Gutters filled with debris can cause serious damage to your home. Our gutter cleaning service ensures that water can flow freely, protecting your property from potential water damage.",
+      "ImageUrl": "[ IMAGE: Clean gutters after power washing ]",
+      "AltText": "Clean gutters after being serviced by DaveStar Powerwashing in Methuen, MA"
+    },
+    {
+      "Service": "Driveway Cleaning",
+      "Anchor": "driveway-cleaning",
+      "Header": "Boost your curb appeal with our driveway cleaning!",
+      "Body": "Our driveway cleaning service can remove stubborn stains and discoloration, enhancing the overall appearance of your property and boosting its curb appeal.",
+      "ImageUrl": "[ IMAGE: Driveway before and after power washing ]",
+      "AltText": "Before and after images of a driveway cleaned by DaveStar Powerwashing in Methuen, MA"
+    },
+    {
+      "Service": "Walkway Cleaning",
+      "Anchor": "walkway-cleaning",
+      "Header": "Welcome guests with a pristine walkway!",
+      "Body": "Our walkway cleaning service can remove dirt, mold, and mildew, creating a clean and inviting entrance to your home or business.",
+      "ImageUrl": "[ IMAGE: Walkway before and after power washing ]",
+      "AltText": "Before and after images of a walkway cleaned by DaveStar Powerwashing in Methuen, MA"
+    },
+    {
+      "Service": "Deck Cleaning",
+      "Anchor": "deck-cleaning",
+      "Header": "Restore your deck's natural beauty!",
+      "Body": "Our deck cleaning service can remove weather stains and mildew, restoring your deck's natural beauty and extending its life.",
+      "ImageUrl": "[ IMAGE: Deck before and after power washing ]",
+      "AltText": "Before and after images of a deck cleaned by DaveStar Powerwashing in Methuen, MA"
+    },
+    {
+      "Service": "Commercial Buildings",
+      "Anchor": "commercial-buildings",
+      "Header": "Impress clients with a clean commercial building!",
+      "Body": "Our power washing service for commercial buildings can help create a positive first impression, attracting more clients and boosting your business.",
+      "ImageUrl": "[ IMAGE: Commercial building before and after power washing ]",
+      "AltText": "Before and after images of a commercial building cleaned by DaveStar Powerwashing in Methuen, MA"
+    }
+  ],
+  "CTA": "Revamp my property!"
+}

@@ -1,0 +1,21 @@
+{
+    "serviceName": {
+        "value": "Service Installation & Maintenance",
+        "description": "The service name.",
+        "AI": true,
+        "instructions": "Use the service name."
+    },   
+    "headerText": {
+        "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod? Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+        "description": "The header text for the section",
+        "AI": true,
+        "instructions": "Write an about us section title highlighting the company's best feature."
+    },
+    "body": {
+        "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?",
+        "description": "The company story.",
+        "AI": true,
+        "instructions": "Write 2-3 paragraph about the company story, acheivements and certifications."
+    }
+    
+}

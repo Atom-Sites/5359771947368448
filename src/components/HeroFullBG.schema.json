@@ -1,0 +1,31 @@
+{
+    "Header": {
+        "value": "A catchy tagline that leads to success.",
+        "AI": true,
+        "instructions":  "Act as an SEO and website designer specialist. Create the perfect heading, limited to 60 characters, highlighting the benefit of using our services. Finish the sentence with a punctuation sign. Ensure all prompts follow SEO best practices. Write in a sentence-case format with no colon or vertical bar. Don't include the company name. Do not use the same word twice.\n Example to follow: Revitalize your property with Asheville's leading pressure washing. \n Take the stress out with our reliable accounting services in Boston.\n Get your London home sparling clean with top power washing services.\n Rejuvenate your space with affordable carpets cleaning in Miami.\n Enjoy leakless pipework with reliable plumbing services in Vancouver. \n Transform your space with our Toronto's professional painters. \n Enjoy stress-free moving services in Sudbury. \n Experience winning legal solutions with Montreal's expert lawyers."
+    },
+    "Body": {
+        "value": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+        "AI": true,
+        "instructions":  "Create a small intro text for the hero section. It should be 2 small sentences of text. Fix all grammar. Do not repeat the same keyword twice in a paragraph. \n Examples to follow: Looking to say goodbye to the never-ending mess and give your place a fresh start? Seek no further! Our cleaning services will give your home or office a new breath of life, creating a sparkling space you'll love. \n Revitalize your space by choosing Vancouver's premier cleaning services. Let our experts transform your home or office into an immaculate hygienic place you'll proudly show your friends and clients, giving you the peace of mind you deserve! \n Give your windows a bright shine with Laval's best window cleaning services. Enjoy crystal-clear views that will brighten your space and experience superior service you can count on and streak-free results. \n Bring life back to your home with expert cleaning services in Washington. Our professionals are committed to providing results to restore your carpets to their beautiful, clean, and hygienic state. Let's take care of the dirt and dust so you can sit back and enjoy your newly revitalized space.\n Transform your home with our qualified professionals with the skill and experience to bring your vision to life, giving you a stunning home you'll be proud of. Whether it's indoor or outdoor painting you need, we guarantee superior results that stand out from the rest. \n Take advantage of Sudbury's top lawyers and get the best legal advice that yields successful outcomes. Our experienced professionals provide personalized services to help you maximize your legal success and get the justice you deserve."
+    },
+    "CTA": {
+        "value": "Lorem ipsum!",
+        "AI": true,
+        "instructions": "Write a small call-to-action text related to the service for the button. Use 3-4 words max. \n Example to follow:\n Get my quote! \n Get my free estimate! \n Schedule now! \n Book today!"
+    },
+    "ImageUrl": {
+        "value": "/images/placeholder.svg",
+        "AI": true,
+        "instructions":  "Act as a content creator. Find a hero image for our main service or company that would grab the viewer's attention and encourage them to take action. Make sure that the image is high quality, clear, and vibrant. Additionally, ensure it is visually representative of the product or service and contextually appropriate for the surrounding content. Provide a URL to your selected image for the hero section."
+    },
+    "AltText": {
+        "value": "Alt text",
+        "AI": true,
+        "instructions": "Ensure that the alternative text for the image provides a succinct, yet equivalent alternative to the content and function of the image. Describe the image thoroughly, highlighting any special features or details that make the service unique. Use keywords for the service and include the main location."
+    },
+    "Anchor": {
+        "value": "top",
+        "AI": false
+    }
+} 

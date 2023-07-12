@@ -1,0 +1,34 @@
+{
+    "Header": {
+        "value": "How can we help?",
+        "description": "Main page header.",
+        "AI": false
+    },
+    "Intro": {
+        "value": "Got questions? We are here to provide you with all the information you need to make informed decisions. Contact our friendly team for personalized assistance if you don't see what you need.",
+        "description": "Small intro paragraph.",
+        "AI": true,
+        "instructions": "Act as a marketing specialist. Write a warm small paragraph for the About Us page to make visitors feel comfortable, and interested in contacting the company. Highlight the company's unique aspects that set it apart from the competition. Use engaging language and a friendly tone. Don't say welcome. No more than 3 sentences."
+    },
+    "Title": {
+        "value": "Frequently asked questions",
+        "description": "Small Title",
+        "AI": false
+    },
+    "FAQs": {
+        "value": [
+            {
+                "Question": "Laborum quis quam?",
+                "Answer": "Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil."
+            }
+        ],
+        "AI": true,
+        "instructions": "Act as a customer service representative. Create a list of the most asked questions that customers typically have regarding our services in our main location. Focus on providing comprehensive answers that address any potential concerns or doubts our customers may have. Your list should include 5-10 of the most commonly asked questions on the web, such as: /n How often should I have my [patio/deck/siding] pressure washed in Toronto? /n Do I need to be home during the pressure washing service? /n How long does pressure wash an average-sized Canadian home take? /n Do I need to remove all outdoor items, such as furniture, before the pressure washing service? /n Can pressure washing damage my property's surface? /n What cleaning agents do you use during the pressure washing service? /n Are you licensed and insured to provide pressure washing services in Toronto? /n Do you provide any guarantees for your work?",
+        "example": [
+            {
+                "Question": "Write the question.",
+                "Answer": "Write the most precise answer available."
+            }
+        ]
+    }
+}

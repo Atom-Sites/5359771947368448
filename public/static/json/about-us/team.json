@@ -1,0 +1,13 @@
+{
+  "Header": "Meet the DAVESTAR POWERWASHING Team",
+  "Body": "DAVESTAR POWERWASHING is known for its dependability, punctuality, and unwavering commitment to delivering excellent customer service. Our work is not done until our customers are completely satisfied. Our team is spearheaded by Dave Cammarata, a hard-working professional who is dedicated to making everything look brand new.",
+  "People": [
+    {
+      "Person": {
+        "ImageURL": "https://image.shutterstock.com/display_pic_with_logo/301539971/1288136518/stock-photo-portrait-of-happy-mature-businessman-wearing-spectacles-and-looking-at-camera-multiethnic-1288136518.jpg",
+        "Name": "Dave Cammarata",
+        "Role": "Owner-Operator"
+      }
+    }
+  ]
+}

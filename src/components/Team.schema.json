@@ -1,0 +1,38 @@
+{
+    "Header": {
+        "value": "Meet our team of experts.",
+        "description": "The header text for the team section.",
+        "AI": true,
+        "instructions": "A short header for the team section."
+    },
+    "Body": {
+        "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?",
+        "description": "The sub header text for the section.",
+        "AI": true,
+        "instructions": "A short description that talks about the team's expertise and qualities."
+    },
+    "People": {
+        "value": [
+            {
+                "Person": {
+                    "ImageURL": "images/placeholder.svg",
+                    "Name": "John Alexander",
+                    "Role": "Owner-Operator"
+                }
+            }
+        ],
+        "description": "List all the company's team members.",
+        "AI": true,
+        "instructions":  "Use available information to create the team members array.",
+        "example":[
+            {
+                "Person": {
+                    "ImageURL": "images/placeholder.svg",
+                    "Name": "John Doe",
+                    "Role": "Owner-Operator"
+                }
+            }
+        ]
+    }
+}
+

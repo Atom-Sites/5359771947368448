@@ -1,0 +1,21 @@
+{
+    "Icon": {
+        "value": "fa-solid shield-check",
+        "description": "Icon for the guarantee section.",
+        "AI": true,
+        "instructions": "The icon should be a Font Awesome icon. Class name such as fa-solid shield-check, fa-solid fa-shield, fa-solid fa-shield-heart, or fa-solid fa-shield-halved. Find an icon that matches the guarantee. Do not repeat icons."
+    },
+    "Header": {
+        "value": "Satisfaction Guarantee",
+        "description": "Header text for the satisfaction guarantee section",
+        "AI": true,
+        "instructions": "Act as a marketing strategist. Write a compelling header about our satisfaction guarantee section. Your header should clearly state what is the guarantee offered. Limit to 60 characters and use title-case format. /n Example to follow: /n 100% Safisfaction Guarantee /n Happiness Guarantee /n Money-Back Guarantee /n Lifetime Warantee"
+
+    },
+    "Body": {
+        "value": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "description": "Description of the guarantee",
+        "AI": true,
+        "instructions": "Act as a marketing strategist. Write a small description of the guarantee using the client’s perspective and second-person pronoun. Highlight how the guarantee is a persuasive benefit. Do not repeat the same keyword twice in a paragraph. Write concise sentences and avoid wordiness or vagueness. Fix all grammar. Write in an active voice. In a clause written in the active voice, the subject of the clause performs the action. (I saw Mom.) In a clause written in the passive voice, the action is performed upon the subject of the clause. (Mom was seen by me.)"
+    }
+}

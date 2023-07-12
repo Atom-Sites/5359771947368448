@@ -1,0 +1,31 @@
+{
+  "Tagline": "Reviews",
+  "Header": "Check out the feedback from our customers who have experienced our top-notch power washing services.",
+  "testimonials": [
+    {
+      "body": "Dave did an outstanding job, both power-washing our house and cleaning the gutters. Look forward to future dealings with Dave, and it was a pleasure to deal with his pleasant demeanor and professionalism.",
+      "author": {
+        "name": "Ed Keleher",
+        "source": "nicejob",
+        "icon": "/images/google-badge.svg"
+      }
+    },
+    {
+      "body": "David made our deck look brand new! He was very detailed, hard working, on time, and reasonably priced. I will definitely use him again, and I recommend him.",
+      "author": {
+        "name": "A. Gold",
+        "source": "nicejob",
+        "icon": "/images/google-badge.svg"
+      }
+    },
+    {
+      "body": "Very happy customer. In addition to doing a great job with our gutters, house, and deck, Dave responded quickly, showed up to give an estimate exactly when he said he would, and did the work exactly when he said he work. Kept me updated via text as well. I plan to use him every year!",
+      "author": {
+        "name": "Mike Newcomb",
+        "source": "nicejob",
+        "icon": "/images/google-badge.svg"
+      }
+    }
+  ],
+  "CTA": "Read more reviews"
+}

@@ -1,0 +1,9 @@
+{
+    "page_name": "faq",
+    "components": [
+        {
+            "slug": "faq",
+            "component_key": "Faq"
+        }
+    ]
+}

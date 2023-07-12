@@ -1,0 +1,12 @@
+{
+    "components": [
+        {
+            "slug": "nav",
+            "component_key": "Nav"
+        },
+        {
+            "slug": "footer",
+            "component_key": "Footer"
+        }
+    ]
+}

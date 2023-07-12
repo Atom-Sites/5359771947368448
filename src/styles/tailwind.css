@@ -6,6 +6,11 @@
   min-height: 100%;
 }
 
+html {
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;
+  }
+
 /* button gradient animation */
 @keyframes gradientAnimation {
   0% {
@@ -19,6 +24,13 @@
   }
 }
 
+/* before and after */
+.slider-nofocus:focus {
+  outline: none;
+}
+.slider-split-line {
+  --divider-width: 8px;
+}
 
 
 /* <!-- CUSTOM CHANGES ON NICEJOB LEAD FORM --> */
@@ -26,14 +38,14 @@
   .nj-funnel__footer__text {
    	display: none
   }
-  .nj-funnel__title {
-    font-family: ‘Nj Inter’, sans-serif !important;
+  .nj-funnel__title { 
+    font-family: "Nj Inter", sans-serif !important;
     color: #272727 !important;
 }
   .nj-funnel__button {
         color: #fff !important;
     	background-color: #2F2F2F !important;
-        font-family: ‘Nj Inter’, sans-serif !important;
+        font-family: "Nj Inter", sans-serif !important;
         line-height: 1.75 !important;
     	border: 1px solid transparent !important;
     	border-radius: 100px !important;
@@ -48,7 +60,7 @@
   .nj-figma-submit {
         color: #fff !important;
     	background-color: #2F2F2F !important;
-        font-family: ‘Nj Inter’, sans-serif !important;
+        font-family: "Nj Inter", sans-serif !important;
     	line-height: 1.75 !important;
         border: 1px #fff !important;
     	border-radius: 100px !important;
@@ -67,16 +79,16 @@
     box-shadow: 0 0px 0px 0px rgb(0 0 0 / 0%), 0 0px 0px 0 rgb(0 0 0 / 0%), 0 0px 0px 0 rgb(0 0 0 / 0%) !important;
 }
     .nj-review__content {
-    font-family: ‘Nj Inter’, sans-serif !important;
+    font-family: "Nj Inter", sans-serif !important;
     color: #2F2F2F !important;
 }
   .nj--widget--content .nj-review__see-more {
-    font-family: ‘Nj Inter’, sans-serif !important;
+    font-family: "Nj Inter", sans-serif !important;
     color: #2F2F2F !important;
     font-weight: 800 !important;
 }
     .nj-review__author {
-    font-family: ‘Nj Inter’, sans-serif !important;
+    font-family: "Nj Inter", sans-serif !important;
     color: #2F2F2F !important;
     font-weight: 600 !important;
 }
@@ -118,7 +130,7 @@
 /* <!-- CUSTOM CHANGES ON TRUST BADGE --> */
 
   .nj--widget--content .nj-trust__rating {
-    font-family: ‘Nj Inter’, sans-serif !important;
+    font-family: "Nj Inter", sans-serif !important;
     color: #2F2F2F !important;
     margin: -8px 0px 24px !important;
     font-size: 5rem !important;
@@ -126,7 +138,7 @@
     font-weight: 600 !important;
      }
   .nj--widget--content .nj-trust__snippet-__text {
-    font-family: ‘Nj Inter’, sans-serif !important;
+    font-family: "Nj Inter", sans-serif !important;
     color: #2F2F2F !important;
     margin: 10px 0px 10px !important;
     padding: 0px !important;
@@ -147,7 +159,7 @@
     font-size: 21px !important;
     }
   .nj--widget--content .nj-trust__verb__text {
-    font-family: ‘Nj Inter’, sans-serif !important;
+    font-family: "Nj Inter", sans-serif !important;
     color: #2F2F2F !important;
     }
   .nj--widget--content .nj-trust__verb {
@@ -178,29 +190,29 @@
 /* <!-- CUSTOM CHANGES ON ENGAGE ---> */
   .nj--widget--content .nj-text--highlight {
    color: #231F20 !important;
-   font-family: ‘Nj Inter’, sans-serif !important;
+   font-family: "Nj Inter", sans-serif !important;
 }
   .nj--widget--content .nj-text--highlight {
    color: #231F20 !important;
-   font-family: ‘Nj Inter’, sans-serif !important;
+   font-family: "Nj Inter", sans-serif !important;
 }
   .nj-caption.nj-caption--pulse.nj-caption--grey {
    color: #231F20 !important;
-   font-family: ‘Nj Inter’, sans-serif !important;
+   font-family: "Nj Inter", sans-serif !important;
 }
   .nj--widget--content .nj-icon.nj-icon--verified {
    color: #231F20 !important;
 }
   .nj--widget--content .nj-caption.nj-caption--pulse {
    color: #231F20 !important;
-   font-family: ‘Nj Inter’, sans-serif !important;
+   font-family: "Nj Inter", sans-serif !important;
 }
   .nj-caption.nj-caption--channel {
    color: #231F20 !important;
-   font-family: ‘Nj Inter’, sans-serif !important;
+   font-family: "Nj Inter", sans-serif !important;
 }
   .nj--widget--content .nj-heading.nj-heading--pulse
    {
    color: #231F20 !important;
-   font-family: ‘Nj Inter’, sans-serif !important;
+   font-family: "Nj Inter", sans-serif !important;
 }

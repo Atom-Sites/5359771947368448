@@ -1,0 +1,57 @@
+{    
+    "Tagline": {
+        "value": "Lorem Ipsum",
+        "description": "Service Name",
+        "AI": true,
+        "instructions": "Write the service name."
+    },
+    "Header": {
+        "value": "Lorem ipsum dolor sit amet consectetur.",
+        "description": "The header text for the section.",
+        "AI": true,
+        "instructions": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of our service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice. \n Example to follow: \n Sparkle up your property! \n Refresh your view with our experts! \n Experience financial freedom with our accounting services! \n Give your property instant curb appeal! \n Breathe new life into your carpet! \n Unlock your home’s full potential! \n Reveal your roof’s true beauty!"
+    },
+    "Body": {
+        "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod? Orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Details for the services section.",
+        "AI": true,
+        "instructions": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing paragraph to promote the service. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice."
+    },    
+    "CTA": {
+        "value": "Lorem ipsum dolor!",
+        "description": "The cta text for the section",
+        "AI": true,
+        "instructions": "Write a small call-to-action text related to the service for the button. Use 3-4 words max. Use first-person singular pronouns. \n Example to follow:\n Clean up my yard! \n Maximize my savings \n Make my windows shine! \n Free my space!"
+    },
+    "imageUrlBefore": {
+        "value": "/images/windows-dirty.webp",
+        "description": "The before image",
+        "AI": true,
+        "instructions": "Put an image that shows the before state of a job, usually dirty, old."
+    },
+    "imageUrlAfter": {
+        "value": "/images/window-cleaned.webp",
+        "description": "The after image",
+        "AI": true,
+        "instructions": "Put an image that shows the after state of a job, usually cleaned, new."
+    },
+    "BeforeAltText": {
+        "value": "Lorem Ipsum",
+        "description": "Alt text",
+        "AI": true,
+        "instructions": "Ensure that the alternative text for the image provides a succinct, yet equivalent alternative to the content and function of the image. Describe the image thoroughly, highlighting any special features or details that make the service unique. Use keywords for the service and include the main location."
+    },
+    "AfterAltText": {
+        "value": "Lorem Ipsum",
+        "description": "Alt text",
+        "AI": true,
+        "instructions": "Ensure that the alternative text for the image provides a succinct, yet equivalent alternative to the content and function of the image. Describe the image thoroughly, highlighting any special features or details that make the service unique. Use keywords for the service and include the main location."
+    },
+    "Anchor": {
+        "value": "name-of-the-service-in-lowercase-with-dashes",
+        "description": "The anchor for the service of the website.",
+        "AI": true,
+        "instructions": "Use the service name using lowercase and dashes. /Example to follow: /n name-of-the-service-in-lowercase-with-dashes"
+    }
+    
+}
